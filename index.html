@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Controle de Despesas</title>
 </head>
 <body>
@@ -11,18 +12,21 @@
         <h4>Saldo atual</h4>
         <h1 id="balance" class="balance">R$ 0.00</h1>
 
+<!--Incluindo Receitas-->
     <div class="inc-exp-container">
         <div>
             <h4>Receitas</h4>
             <p id="money-plus" class="money plus">+ R$0.00</p>
         </div>
 
+<!--Incluindo Despesas-->
     <div>
         <h4>Despesas</h4>
         <p id="money-minus" class="money minus">- R$0.00</p>
     </div>
     </div>
 
+<!--Incluindo as transações-->
     <h3>Transações</h3>
     <ul id="transactions" class="tansactions"></ul>
 
@@ -45,6 +49,7 @@
             <input type="number" id="ammout" placeholder="Valor da transação"/>
         </div>
 
+<!--Criando o botão Para adicionar as transações-->
         <button class="btn">Adicionar</button>
     </form>
     </div>
