@@ -16,7 +16,38 @@
             <h4>Receitas</h4>
             <p id="money-plus" class="money plus">+ R$0.00</p>
         </div>
+
+    <div>
+        <h4>Despesas</h4>
+        <p id="money-minus" class="money minus">- R$0.00</p>
     </div>
     </div>
+
+    <h3>Transações</h3>
+    <ul id="transactions" class="tansactions"></ul>
+
+    <h3>Adicionar transação</h3>
+    <form id="form">
+        <div class="form-control">
+            <label for="text">Nome</label>
+            <input
+            autofocus
+            type="text"
+            id="text"
+            placeholder="Nome da transação"
+            />
+        </div>
+
+        <div class="form-control">
+            <label for="ammout"
+            >valor <br />
+            <small>(negativo - despesas, positivo - receitas)</small>
+            <input type="number" id="ammout" placeholder="Valor da transação"/>
+        </div>
+
+        <button class="btn">Adicionar</button>
+    </form>
+    </div>
+    <script src="JavaScript/script.js"></script>
 </body>
 </html>
